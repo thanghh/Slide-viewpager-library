@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rank_item_market_width_19">19dp</dimen>
+    <dimen name="tutorial_8dp">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="slide_market_height">218dp</dimen>
+    <dimen name="slide_market_height_192">192dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+</resources>
