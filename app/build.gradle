@@ -47,3 +47,6 @@ task createJar(type: Copy) {
     include('classes.jar')
     rename('classes.jar', 'slidelib.jar')
 }
+task deleteJar(type: Delete) {
+    delete 'libs/jars/slidelib.jar'
+}

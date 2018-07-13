@@ -66,8 +66,8 @@ public class ImagePagerAdapter extends PagerAdapter {
 
         ImageView imgDisplay = layout.findViewById(R.id.mImageViewItemSlide);
         imgDisplay.setImageResource(mArrayList.get(position));
-        ((ViewPager) container).addView(layout);
-        return layout;
+        container.addView(imgDisplay);
+        return imgDisplay;
     }
 
     @Override
